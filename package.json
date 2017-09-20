@@ -1,0 +1,22 @@
+{
+  "name": "backend-boilerplate",
+  "version": "0.0.1",
+  "description": "后台样板代码",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weilinonline/backend-boilerplate.git"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "weilin",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/weilinonline/backend-boilerplate/issues"
+  },
+  "homepage": "https://github.com/weilinonline/backend-boilerplate#readme"
+}
