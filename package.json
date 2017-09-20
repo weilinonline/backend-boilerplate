@@ -4,7 +4,8 @@
   "description": "后台样板代码",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "NODE_ENV=development babel-node scripts/index.js",
+    "build": "NODE_ENV=production node scripts/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,8 +16,24 @@
   ],
   "author": "weilin",
   "license": "Apache-2.0",
+  "engines": {
+    "node": ">= 8.4.0",
+    "npm": ">= 5.4.1"
+  },
   "bugs": {
     "url": "https://github.com/weilinonline/backend-boilerplate/issues"
   },
-  "homepage": "https://github.com/weilinonline/backend-boilerplate#readme"
+  "homepage": "https://github.com/weilinonline/backend-boilerplate#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "koa": "^2.3.0",
+    "vue": "^2.4.4",
+    "vue-router": "^2.7.0",
+    "vue-server-renderer": "^2.4.4",
+    "vuex": "^2.4.0"
+  }
 }
